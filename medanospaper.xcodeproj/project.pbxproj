@@ -51,7 +51,11 @@
 		9F20A0052B4B6A79000175AD /* medanospaper */ = {
 			isa = PBXGroup;
 			children = (
-				9F20A0062B4B6A79000175AD /* medanospaperApp.swift */,
+				9F20A0182B4B6C7E000175AD /* Utils */,
+				9F20A0172B4B6C78000175AD /* Model */,
+				9F20A0162B4B6C71000175AD /* Extensions */,
+				9F20A0152B4B6C69000175AD /* Core */,
+				9F20A0142B4B6C58000175AD /* App */,
 				9F20A0082B4B6A79000175AD /* ContentView.swift */,
 				9F20A00A2B4B6A7B000175AD /* Assets.xcassets */,
 				9F20A00C2B4B6A7B000175AD /* Preview Content */,
@@ -65,6 +69,42 @@
 				9F20A00D2B4B6A7B000175AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F20A0142B4B6C58000175AD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9F20A0062B4B6A79000175AD /* medanospaperApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9F20A0152B4B6C69000175AD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9F20A0162B4B6C71000175AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9F20A0172B4B6C78000175AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F20A0182B4B6C7E000175AD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
