@@ -1,17 +1,10 @@
-//
-//  HomeView.swift
-//  medanospaper
-//
-//  Created by Agustin Carbajal on 09/01/2024.
-//
-
 import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             Header()
-            Spacer()
+            ListNews()
         }
     }
 }

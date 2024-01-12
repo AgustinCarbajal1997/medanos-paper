@@ -1,15 +1,8 @@
-//
-//  Header.swift
-//  medanospaper
-//
-//  Created by Agustin Carbajal on 09/01/2024.
-//
-
 import SwiftUI
 
 struct Header: View {
     var body: some View {
-        VStack{
+        VStack(spacing: 0){
             
             HStack(alignment: .center, spacing: 15){
                 Button{
@@ -22,7 +15,7 @@ struct Header: View {
                         Spacer()
                         Rectangle()
                             .foregroundColor(Color.brandSecond)
-                            .frame(width: 100, height: 2)
+                            .frame(width: 100, height: 4)
                     }
                 }
                 Button{
@@ -34,7 +27,7 @@ struct Header: View {
                         Spacer()
                         Rectangle()
                             .foregroundColor(Color.brandSecond)
-                            .frame(width: 100, height: 2)
+                            .frame(width: 100, height: 4)
                     }
                 }
                 Button{
@@ -46,7 +39,7 @@ struct Header: View {
                         Spacer()
                         Rectangle()
                             .foregroundColor(Color.brandSecond)
-                            .frame(width: 100, height: 2)
+                            .frame(width: 100, height: 4)
                     }
                 }
             }

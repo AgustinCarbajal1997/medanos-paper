@@ -10,6 +10,9 @@
 		9F20A0072B4B6A79000175AD /* medanospaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20A0062B4B6A79000175AD /* medanospaperApp.swift */; };
 		9F20A00B2B4B6A7B000175AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F20A00A2B4B6A7B000175AD /* Assets.xcassets */; };
 		9F20A00E2B4B6A7B000175AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F20A00D2B4B6A7B000175AD /* Preview Assets.xcassets */; };
+		9F333A482B50A93600093984 /* ListNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F333A472B50A93600093984 /* ListNews.swift */; };
+		9F333A4C2B50B56200093984 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F333A4B2B50B56200093984 /* AlertsView.swift */; };
+		9F333A4E2B50B5DB00093984 /* ListAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F333A4D2B50B5DB00093984 /* ListAlerts.swift */; };
 		9F6B06B12B4E0B6500F8EF99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B06B02B4E0B6500F8EF99 /* ContentView.swift */; };
 		9F6B06B42B4E0C1D00F8EF99 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B06B32B4E0C1D00F8EF99 /* Header.swift */; };
 		9F6B06B82B4E0C6700F8EF99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6B06B72B4E0C6700F8EF99 /* HomeView.swift */; };
@@ -21,6 +24,9 @@
 		9F20A0062B4B6A79000175AD /* medanospaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medanospaperApp.swift; sourceTree = "<group>"; };
 		9F20A00A2B4B6A7B000175AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F20A00D2B4B6A7B000175AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F333A472B50A93600093984 /* ListNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNews.swift; sourceTree = "<group>"; };
+		9F333A4B2B50B56200093984 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		9F333A4D2B50B5DB00093984 /* ListAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAlerts.swift; sourceTree = "<group>"; };
 		9F6B06B02B4E0B6500F8EF99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F6B06B32B4E0C1D00F8EF99 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		9F6B06B72B4E0C6700F8EF99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -87,6 +93,7 @@
 		9F20A0152B4B6C69000175AD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9F333A492B50B54500093984 /* Alerts */,
 				9F6B06B52B4E0C3F00F8EF99 /* Home */,
 				9F6B06B22B4E0C0900F8EF99 /* Components */,
 				9F6B06AE2B4E0B1400F8EF99 /* Root */,
@@ -116,6 +123,22 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		9F333A492B50B54500093984 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				9F333A4A2B50B55600093984 /* View */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		9F333A4A2B50B55600093984 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F333A4B2B50B56200093984 /* AlertsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9F6B06AE2B4E0B1400F8EF99 /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				9F6B06B32B4E0C1D00F8EF99 /* Header.swift */,
+				9F333A472B50A93600093984 /* ListNews.swift */,
+				9F333A4D2B50B5DB00093984 /* ListAlerts.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -226,6 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F333A482B50A93600093984 /* ListNews.swift in Sources */,
+				9F333A4C2B50B56200093984 /* AlertsView.swift in Sources */,
+				9F333A4E2B50B5DB00093984 /* ListAlerts.swift in Sources */,
 				9F20A0072B4B6A79000175AD /* medanospaperApp.swift in Sources */,
 				9F6B06B82B4E0C6700F8EF99 /* HomeView.swift in Sources */,
 				9F6B06B42B4E0C1D00F8EF99 /* Header.swift in Sources */,
