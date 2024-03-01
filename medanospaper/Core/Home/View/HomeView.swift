@@ -3,7 +3,6 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack(spacing: 0) {
-            Header()
             ListNews()
         }
     }

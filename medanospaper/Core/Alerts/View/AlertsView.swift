@@ -3,7 +3,6 @@ import SwiftUI
 struct AlertsView: View {
     var body: some View {
         VStack(spacing: 0) {
-            Header()
             ListAlerts()
         }
     }

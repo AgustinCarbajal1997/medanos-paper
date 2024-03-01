@@ -10,6 +10,7 @@
 		9F20A0072B4B6A79000175AD /* medanospaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F20A0062B4B6A79000175AD /* medanospaperApp.swift */; };
 		9F20A00B2B4B6A7B000175AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F20A00A2B4B6A7B000175AD /* Assets.xcassets */; };
 		9F20A00E2B4B6A7B000175AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F20A00D2B4B6A7B000175AD /* Preview Assets.xcassets */; };
+		9F2B751E2B9268DB00406A2F /* SlidingTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 9F2B751D2B9268DB00406A2F /* SlidingTabView */; };
 		9F333A482B50A93600093984 /* ListNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F333A472B50A93600093984 /* ListNews.swift */; };
 		9F333A4C2B50B56200093984 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F333A4B2B50B56200093984 /* AlertsView.swift */; };
 		9F333A4E2B50B5DB00093984 /* ListAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F333A4D2B50B5DB00093984 /* ListAlerts.swift */; };
@@ -38,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2B751E2B9268DB00406A2F /* SlidingTabView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +199,9 @@
 			dependencies = (
 			);
 			name = medanospaper;
+			packageProductDependencies = (
+				9F2B751D2B9268DB00406A2F /* SlidingTabView */,
+			);
 			productName = medanospaper;
 			productReference = 9F20A0032B4B6A79000175AD /* medanospaper.app */;
 			productType = "com.apple.product-type.application";
@@ -225,6 +230,9 @@
 				Base,
 			);
 			mainGroup = 9F209FFA2B4B6A79000175AD;
+			packageReferences = (
+				9F2B751C2B9268DB00406A2F /* XCRemoteSwiftPackageReference "SlidingTabView" */,
+			);
 			productRefGroup = 9F20A0042B4B6A79000175AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -459,6 +467,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F2B751C2B9268DB00406A2F /* XCRemoteSwiftPackageReference "SlidingTabView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QuynhNguyen/SlidingTabView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F2B751D2B9268DB00406A2F /* SlidingTabView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F2B751C2B9268DB00406A2F /* XCRemoteSwiftPackageReference "SlidingTabView" */;
+			productName = SlidingTabView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F209FFB2B4B6A79000175AD /* Project object */;
 }
