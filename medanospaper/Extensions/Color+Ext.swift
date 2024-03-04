@@ -5,6 +5,7 @@ extension Color {
     static let brandSecond = Color("brandSecondColor")
     static let brandTitleColor = Color("brandTitleColor")
     static let orangeLight = Color("orangeLight")
+    static let brandPrimaryLight = Color("brandPrimaryLightColor")
 }
 
 extension UIColor {
@@ -12,4 +13,5 @@ extension UIColor {
     static let brandSecond = UIColor(named: "brandSecondColor")
     static let brandTitleColor = UIColor(named: "brandTitleColor")
     static let orangeLight = UIColor(named: "orangeLight")
+    static let brandPrimaryLight = UIColor(named: "brandPrimaryLightColor")
 }

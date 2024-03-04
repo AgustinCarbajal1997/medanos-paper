@@ -8,6 +8,7 @@ struct ContentView: View {
     let tabViews: [String] = ["NOTICIAS", "ALERTAS", "ALQUILERES"]
     var body: some View {
         VStack(spacing: 0) {
+            Header()
             SlidingTabView(
                 selection: $tabIndex,
                 tabs: tabViews,
@@ -18,8 +19,8 @@ struct ContentView: View {
                 selectionBarColor: Color.brandSecond,
                 selectionBarHeight: 5
                 )
-                .background(Color.brandPrimary)
-                .padding(0)
+                    .background(Color.brandPrimaryLight)
+                    .padding(0)
                 
             
             if(tabIndex == 0) {

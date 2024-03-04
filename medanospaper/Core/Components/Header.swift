@@ -2,54 +2,34 @@ import SwiftUI
 
 struct Header: View {
     var body: some View {
-        VStack(spacing: 0){
-            
-            HStack(alignment: .center, spacing: 15){
-                Button{
-                    print("Vaaaamos para noticias")
-                } label: {
-                    VStack{
-                        Spacer()
-                        Text("Noticias")
-                            
-                        Spacer()
-                        Rectangle()
-                            .foregroundColor(Color.brandSecond)
-                            .frame(width: 100, height: 4)
-                    }
-                }
-                Button{
-                    print("Vaaaamos para Alertas")
-                } label: {
-                    VStack{
-                        Spacer()
-                        Text("Alertas")
-                        Spacer()
-                        Rectangle()
-                            .foregroundColor(Color.brandSecond)
-                            .frame(width: 100, height: 4)
-                    }
-                }
-                Button{
-                    print("Vaaaamos para Alquileres")
-                } label: {
-                    VStack{
-                        Spacer()
-                        Text("Alquileres")
-                        Spacer()
-                        Rectangle()
-                            .foregroundColor(Color.brandSecond)
-                            .frame(width: 100, height: 4)
-                    }
+        VStack(alignment: .center, spacing: 0){
+            HStack(spacing: 20) {
+                Image(systemName: "line.3.horizontal")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 15, height: 15)
+                    .foregroundColor(.white)
+                Image("logo-header")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 220)
+                
+                HStack(alignment: .center){
+                    Text("26º")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                    Image(systemName: "cloud.sun")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 25, height: 25)
+                        .foregroundColor(.white)
                 }
             }
-            .foregroundColor(.white)
-            .font(.title3)
-            .fontWeight(.bold)
+            
             
         }
-        .frame(maxWidth: .infinity, maxHeight: 40)
-        .background(Color.brandPrimary)
+        .frame(maxWidth: .infinity, maxHeight: 50)
+        .background(Color.brandPrimaryLight)
         
     }
 }
